@@ -6,13 +6,7 @@ var calipso = require("lib/calipso");
 
 exports = module.exports = {
   init: init,
-  route: route,
-  about: {
-    description: 'Simple breaking news module, uses a breaking tag to retrieve the last 5 content items tagged "breaking".',
-    author: 'cliftonc',
-    version: '0.1.1',
-    home: 'http://github.com/cliftonc/calipso'
-  }
+  route: route
 };
 
 /**
